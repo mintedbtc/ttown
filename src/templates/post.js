@@ -77,7 +77,7 @@ console.log(post.photoCredit)
               {/* <div style={{borderLeft:"0.3px solid #eee",borderTop:"0.1px solid #eee",borderRadius:"16px"}}> */}
             
             {/* forced update */}
-
+            {/* forced update */}
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style={{borderCollapse: "collapse"}}>
               <tr>
               <td width="33%" style={{padding: "15px", fontFamily:"Helvetica,Arial,sans-serif",fontSize:"12px",color:"#000000",marginTop:"0",marginBottom:"0"}}>
