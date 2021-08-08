@@ -50,7 +50,7 @@ const query = graphql`
         }
       }
     }
-    allStrapiEdition(sort: {order: DESC, fields: date}
+    allStrapiEdition(sort: {order: DESC, fields: date},
       filter: {writer: {id: {eq: 1}}}) {
       edges {
         node {
