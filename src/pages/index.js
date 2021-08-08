@@ -225,7 +225,7 @@ render() {
                                     }
                                   }
                                 }
-                                allStrapiEdition(sort: {order: DESC, fields: date} filter: {writer: {id: {eq: 1}}}, limit: 5) 
+                                allStrapiEdition(sort: {order: DESC, fields: date}, filter: {writer: {id: {eq: 1}}}, limit: 5) 
                                 {
                                   edges {
                                     node {
