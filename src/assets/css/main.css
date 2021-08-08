@@ -1,0 +1,284 @@
+a {
+    text-decoration: none !important;
+  }
+  
+  h1 {
+    font-family: Staatliches !important;
+    font-size: 70px !important;
+  }
+  
+  #category {
+    font-family: Staatliches !important;
+    font-weight: 500 !important;
+  }
+  
+  #title {
+    letter-spacing: 0.4px !important;
+    font-size: 22px !important;
+    font-size: 1.375rem !important;
+    line-height: 1.13636 !important;
+  }
+
+ 
+  
+  #banner {
+    margin: 20px !important;
+    height: 800px !important;
+  }
+  
+  #editor {
+    font-size: 16px !important;
+    font-size: 1rem !important;
+    line-height: 1.75 !important;
+  }
+  
+  .uk-navbar-container {
+    background: #fff !important;
+    font-family: Staatliches !important;
+  }
+  
+  img:hover {
+    opacity: 1 !important;
+    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1) !important;
+  } 
+
+ 
+
+  #signup {
+    background-color: white;
+    color: #ADC6C2;
+  }
+  #signup:focus {
+    outline: #307765;
+    border-color: #307765;
+  }
+
+  #article-link {
+    color: white;
+    font-weight: bold;
+  }
+
+  #archive-link {
+    color: black;
+    font-weight: bold;
+  }
+
+  #article-link:hover {
+    color: #307765;
+  }
+
+  
+
+  #story-link {
+    color: black;
+    font-weight: bold;
+  }
+
+  #story-link:hover {
+    color: #307765;
+  }
+
+  .subscribeButton {
+    color: black;
+  }
+  
+  li.job {
+    font-size: 1.2rem;
+      padding: 18px 10px 18px 10px;
+      border: 1px solid rgba(144,146,148,0.2);
+      position: relative;
+      margin:auto;
+      width: 70%;
+  }
+
+  li.mobile-job {
+    font-size: 1.2rem;
+      padding: 18px 10px 18px 10px;
+      border: 1px solid rgba(144,146,148,0.2);
+      position: relative;
+      margin:auto;
+      width: 100%;
+  }
+  
+  h2.job-header {
+    text-align: center;
+    margin-bottom:2px;
+    margin-top:20px;
+  }
+
+  a.job {
+    display: block;
+    text-decoration: none !important;
+    border-bottom-style: none !important;
+  }
+
+  div.job-middle-section-mobile {
+    display:inline-block; 
+    width:100%;
+  }
+  div.job-middle-section {
+    display:inline-block; 
+    width:100%;
+  }
+span.title {
+  color: #212529;
+    font-family: "Neufile Grotesk Semi Bold", sans-serif;
+    text-decoration: none;
+    text-align:left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-right:30%;
+    margin-left:16px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+span.title-mobile {
+  color: #212529;
+    font-family: "Neufile Grotesk Semi Bold", sans-serif;
+    text-decoration: none;
+    text-align:left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left:10px;
+    font-size:0.72rem;
+    margin-bottom: 8px;
+}
+
+span.company {
+  color: #212529;
+    font-family: "Neufile Grotesk Regular", sans-serif;
+    text-decoration: none;
+    text-align:left;
+    margin-left:35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    padding-left:3%;
+    font-size: 1rem;
+}
+
+span.company-mobile {
+  color: #212529;
+    font-family: "Neufile Grotesk Regular", sans-serif;
+    text-decoration: none;
+    text-align:left;
+    margin-left:35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    padding-left:3%;
+    font-size: 0.7rem;
+}
+
+span.date {
+  float: right;
+    color: #212529;
+    margin-top: 4px;
+    font-family: "Neufile Grotesk Light", sans-serif;
+    font-size: 1rem;
+    text-align: right;
+}
+
+span.date-mobile {
+  float: right;
+    color: #212529;
+    margin-top: 4px;
+    font-family: "Neufile Grotesk Light", sans-serif;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+span.location {
+  margin-left: 0px;
+  text-align:left;
+  padding-left:3%;
+  margin-left:35px; 
+}
+
+span.location-company-mobile {
+  color: #212529;
+    font-family: "Neufile Grotesk Regular", sans-serif;
+    text-decoration: none;
+    text-align:left;
+    margin-left:35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    padding-left:3%;
+    font-size: 0.7rem;
+    margin-left: 0px;
+    text-align:left;
+    padding-left:3%;
+    margin-left:35px;
+}
+
+  .subscribeButton:hover {
+    color: #307765;
+    font-weight: bold;
+  }
+
+  #archive-link:hover {
+    color: #307765;
+  }
+
+  #signup::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ADC6C2;
+    opacity: 1; /* Firefox */
+  }
+  
+  #signup:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #307765;
+  }
+  
+  #signup::-ms-input-placeholder { /* Microsoft Edge */
+    color: #307765;
+  }
+
+  button:hover {
+    opacity: 0.9;
+    outline: #307765;
+    background-color: #307765;
+    color:#307765;
+    border-color: #307765;
+  }
+
+  #coverImg {
+    background-image: '../..src/images/cover.png'
+  }
+
+  .job-post-button {
+    height: 48px;
+      background-color: hsl(165, 43%, 33%) !important;
+      display: inline;
+      color: white;
+      
+      margin: 0;
+      margin-top: 25px;
+      width: 220px;
+      padding: 0 20px;
+      text-transform: uppercase;
+      font-size: 14px;
+      border-radius: 24px;
+  }
+  
+  .job-post-button:hover {
+    opacity: 0.9;
+    outline: #307765;
+    cursor: pointer;
+    background-color: #307765;
+    color: white;
+    border-color: #307765;
+  }
+
+  div.job-head {
+    text-align: center;
+  }
